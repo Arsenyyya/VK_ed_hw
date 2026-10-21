@@ -1,0 +1,15 @@
+{
+  "variant": "8. Программист, разработчик Frontend",
+  "role": "Программист, разработчик",
+  "name_regex": "front[ -]?end|фронт[ -]?[еэ]нд",
+  "stack_caps": [5, 10, 15],
+  "chunk_rows": 1000,
+  "workers": 4,
+  "attempts": 3,
+  "minimum_salary_support": 10,
+  "endpoint": "http://127.0.0.1:19100",
+  "bucket": "hh-lake",
+  "source_key": "it_vacancies_2024.csv",
+  "source_path": "../rustfs_lab/data/it_vacancies_2024.csv",
+  "regions": ["Москва", "Санкт-Петербург", "Екатеринбург"]
+}

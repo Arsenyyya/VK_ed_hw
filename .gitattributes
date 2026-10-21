@@ -1,0 +1,6 @@
+*.pdf binary
+*.png binary
+*.csv text eol=lf
+*.json text eol=lf
+results/** linguist-generated=true
+logs/** linguist-generated=true

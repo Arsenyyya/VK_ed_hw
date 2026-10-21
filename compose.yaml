@@ -1,0 +1,22 @@
+name: skills-analytics-lab
+services:
+  rustfs:
+    image: rustfs/rustfs:1.0.1@sha256:1803faef57627e2d9c2e7d89d655d712ddded5389040054987163043fecb6a3c
+    container_name: rustfs-skills-lab
+    user: "10001:10001"
+    command: ["/disks/disk1", "/disks/disk2", "/disks/disk3", "/disks/disk4"]
+    ports:
+      - "127.0.0.1:19100:9000"
+      - "127.0.0.1:19101:9001"
+    environment:
+      RUSTFS_ACCESS_KEY: labadmin
+      RUSTFS_SECRET_KEY: local-lab-secret-2026
+      RUSTFS_ADDRESS: ":9000"
+      RUSTFS_CONSOLE_ADDRESS: ":9001"
+      RUSTFS_CONSOLE_ENABLE: "true"
+      RUSTFS_STORAGE_CLASS_STANDARD: "EC:2"
+      RUSTFS_ERASURE_SET_DRIVE_COUNT: "4"
+      RUSTFS_UNSAFE_BYPASS_DISK_CHECK: "true"
+      RUSTFS_OBS_LOGGER_LEVEL: "info"
+    volumes:
+      - ./runtime/disks:/disks
