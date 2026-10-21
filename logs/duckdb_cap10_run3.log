@@ -1,0 +1,27 @@
+$ /Users/arsenyyya/VK_Ed/skills_analytics_lab/.venv/bin/python scripts/duckdb_counts.py --cap 10 --run 3
+{
+  "engine": "duckdb",
+  "version": "2.0.0",
+  "cap": 10,
+  "run": "3",
+  "variant": "8. Программист, разработчик Frontend",
+  "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+  "selected_rows": 6075,
+  "with_skills": 4571,
+  "orders": {
+    "1": {
+      "distinct": 1294,
+      "occurrences": 28234
+    },
+    "2": {
+      "distinct": 14907,
+      "occurrences": 88697
+    },
+    "3": {
+      "distinct": 62451,
+      "occurrences": 183508
+    }
+  },
+  "seconds": 9.402644,
+  "s3_output": "results/duckdb_cap10_run3.json"
+}

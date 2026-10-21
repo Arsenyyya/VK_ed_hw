@@ -1,0 +1,16 @@
+Full key/count comparisons: 29 ALL MATCH; S3 readback ALL MATCH
+Actual mapper process exit(17) + retry: MATCH
+{
+  "1": {
+    "distinct": 1501,
+    "occurrences": 30783
+  },
+  "2": {
+    "distinct": 23474,
+    "occurrences": 122269
+  },
+  "3": {
+    "distinct": 164421,
+    "occurrences": 404688
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "source_audit": {
+    "rows": 229388,
+    "unique_ids": 229388,
+    "published_min": "2023-12-19",
+    "published_max": "2024-09-14",
+    "snapshot_min": "2024-08-23",
+    "snapshot_max": "2024-09-15"
+  },
+  "stats": {
+    "vacancies": 6075,
+    "with_skills": 4571,
+    "without_skills": 1504,
+    "salary_n": 1855,
+    "median_salary": 140000.0,
+    "salary_min": 120.0,
+    "salary_max": 675000.0,
+    "salary_below_10000": 2,
+    "median_stack": 5.0,
+    "max_stack": 30,
+    "no_salary_bounds": 3545,
+    "rub_gross": 540,
+    "foreign_currency": 135,
+    "selected_ids_sha256": "05d6133cca3183956d38ada7af1e8824505d0746779fd3d494a4b53cc563c338"
+  },
+  "regions": [
+    {
+      "region": "Екатеринбург",
+      "vacancies": 244,
+      "with_skills": 192,
+      "salary_n": 118,
+      "median_salary": 115000.0,
+      "q25": 80000.0,
+      "q75": 155000.0,
+      "salary_share_pct": 48.36
+    },
+    {
+      "region": "Москва",
+      "vacancies": 2775,
+      "with_skills": 2004,
+      "salary_n": 696,
+      "median_salary": 175000.0,
+      "q25": 123750.0,
+      "q75": 221250.0,
+      "salary_share_pct": 25.08
+    },
+    {
+      "region": "Санкт-Петербург",
+      "vacancies": 935,
+      "with_skills": 702,
+      "salary_n": 310,
+      "median_salary": 145000.0,
+      "q25": 91250.0,
+      "q75": 200000.0,
+      "salary_share_pct": 33.16
+    }
+  ],
+  "eligible_pairs": 875,
+  "eligible_triples": 2046
+}

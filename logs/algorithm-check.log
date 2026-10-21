@@ -1,0 +1,1 @@
+PASS: expected counts for singles/pairs/triples; both MR modes and SQL; role/title filter; deduplication; empty skills; multiline CSV; salary midpoint

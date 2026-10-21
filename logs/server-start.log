@@ -1,0 +1,3 @@
+Initializing data directories: /data
+Initializing log directory: /logs
+Starting: /usr/bin/rustfs /disks/disk1 /disks/disk2 /disks/disk3 /disks/disk4

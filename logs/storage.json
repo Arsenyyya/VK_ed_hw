@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-10-21T14:28:17.874291+00:00",
+  "source": "it_vacancies_2024.csv",
+  "bucket": "hh-lake",
+  "key": "it_vacancies_2024.csv",
+  "bytes": 847619384,
+  "sha256": "303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65",
+  "get_sha256": "303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65",
+  "match": true,
+  "put_http": 200,
+  "get_http": 200,
+  "host": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "docker": "28.5.1"
+}

@@ -1,0 +1,26 @@
+{
+  "engine": "duckdb",
+  "version": "2.0.0",
+  "cap": 15,
+  "run": "1",
+  "variant": "8. Программист, разработчик Frontend",
+  "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+  "selected_rows": 6075,
+  "with_skills": 4571,
+  "orders": {
+    "1": {
+      "distinct": 1436,
+      "occurrences": 30144
+    },
+    "2": {
+      "distinct": 19790,
+      "occurrences": 110539
+    },
+    "3": {
+      "distinct": 108974,
+      "occurrences": 299171
+    }
+  },
+  "seconds": 14.319226,
+  "s3_output": "results/duckdb_cap15_run1.json"
+}

@@ -1,0 +1,30 @@
+$ /Users/arsenyyya/VK_Ed/skills_analytics_lab/.venv/bin/python scripts/mapreduce.py --cap 0 --run full
+{
+  "engine": "mapreduce",
+  "mode": "optimized",
+  "cap": 0,
+  "run": "full",
+  "variant": "8. Программист, разработчик Frontend",
+  "sha256": "03bd25b0230d2ec98b73517a6afbe11c365d3b258b9930df191d18848cd05655",
+  "input_rows": 229388,
+  "selected_rows": 6075,
+  "with_skills": 4571,
+  "chunks": 230,
+  "orders": {
+    "1": {
+      "distinct": 1501,
+      "occurrences": 30783
+    },
+    "2": {
+      "distinct": 23474,
+      "occurrences": 122269
+    },
+    "3": {
+      "distinct": 164421,
+      "occurrences": 404688
+    }
+  },
+  "recovery": [],
+  "seconds": 8.823968,
+  "s3_output": "results/mr_optimized_cap0_runfull.json"
+}

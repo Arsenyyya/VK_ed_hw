@@ -1,0 +1,29 @@
+{
+  "engine": "mapreduce",
+  "mode": "baseline",
+  "cap": 5,
+  "run": "1",
+  "variant": "8. Программист, разработчик Frontend",
+  "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+  "input_rows": 229388,
+  "selected_rows": 6075,
+  "with_skills": 4571,
+  "chunks": 230,
+  "orders": {
+    "1": {
+      "distinct": 938,
+      "occurrences": 20281
+    },
+    "2": {
+      "distinct": 6058,
+      "occurrences": 37099
+    },
+    "3": {
+      "distinct": 11237,
+      "occurrences": 34726
+    }
+  },
+  "recovery": [],
+  "seconds": 7.566275,
+  "s3_output": "results/mr_baseline_cap5_run1.json"
+}

@@ -1,0 +1,13 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 08:22:19) [Clang 14.0.6 ]",
+  "logical_cpus": 10,
+  "physical_cpus": 10,
+  "ram_bytes": 17179869184,
+  "workers": 4,
+  "duckdb_threads": 4,
+  "chunk_rows": 1000,
+  "measurement": "10ms process-tree summed RSS",
+  "scope": "fresh Python process including S3 read, computation, serialization and S3 result PUT; excludes RustFS/Docker; shared pages can be counted more than once",
+  "cache": "warm OS/server caches; not explicitly cleared; rotating engine order"
+}

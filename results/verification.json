@@ -1,0 +1,245 @@
+{
+  "all_match": true,
+  "checks": [
+    {
+      "file": "mr_baseline_cap5_run1.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap5_run1.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap5_run1.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_baseline_cap5_run2.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap5_run2.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap5_run2.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_baseline_cap5_run3.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap5_run3.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap5_run3.json",
+      "keys": 18233,
+      "sha256": "2bf4f7f36a0d6b6a30eb942a783152f09e3c79ef39e0d607211c9a149ef112df",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_baseline_cap10_run1.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap10_run1.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap10_run1.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_baseline_cap10_run2.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap10_run2.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap10_run2.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_baseline_cap10_run3.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap10_run3.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap10_run3.json",
+      "keys": 78652,
+      "sha256": "04489413da19f29b683dc1e59a27d9a54671e886e53c511b23c1eccfea88b0cb",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_baseline_cap15_run1.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap15_run1.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap15_run1.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_baseline_cap15_run2.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap15_run2.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap15_run2.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_baseline_cap15_run3.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap15_run3.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "duckdb_cap15_run3.json",
+      "keys": 130200,
+      "sha256": "28f592289a527d1b8babc73a0d1eaf067fa6ce87d21c2c96d011e76e96fbfc5f",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap0_runfull.json",
+      "keys": 189396,
+      "sha256": "03bd25b0230d2ec98b73517a6afbe11c365d3b258b9930df191d18848cd05655",
+      "match": true,
+      "s3_readback_match": true
+    },
+    {
+      "file": "mr_optimized_cap0_runrecovery.json",
+      "keys": 189396,
+      "sha256": "03bd25b0230d2ec98b73517a6afbe11c365d3b258b9930df191d18848cd05655",
+      "match": true,
+      "s3_readback_match": true
+    }
+  ],
+  "count_comparisons": 29,
+  "failure_recovery_match": true,
+  "analytic_frequency_table_match": true,
+  "full_orders": {
+    "1": {
+      "distinct": 1501,
+      "occurrences": 30783
+    },
+    "2": {
+      "distinct": 23474,
+      "occurrences": 122269
+    },
+    "3": {
+      "distinct": 164421,
+      "occurrences": 404688
+    }
+  },
+  "theoretical_per_vacancy": [
+    {
+      "stack": 5,
+      "singles": 5,
+      "pairs": 10,
+      "triples": 10
+    },
+    {
+      "stack": 10,
+      "singles": 10,
+      "pairs": 45,
+      "triples": 120
+    },
+    {
+      "stack": 15,
+      "singles": 15,
+      "pairs": 105,
+      "triples": 455
+    }
+  ]
+}
